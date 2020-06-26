@@ -16,7 +16,7 @@
                     "-lauto",
                     "-o",
                     "UAE-Control",
-                    "UAE-Control.c"
+                    "src/UAE-Control.c"
                 ]
             },
             "osx": {
@@ -29,7 +29,7 @@
                     "-lauto",
                     "-o",
                     "UAE-Control",
-                    "UAE-Control.c"
+                    "src/UAE-Control.c"
                 ]
             },
             "linux": {
@@ -42,7 +42,7 @@
                     "-lauto",
                     "-o",
                     "UAE-Control",
-                    "UAE-Control.c"
+                    "src/UAE-Control.c"
                 ]
             },
             "group": {
@@ -57,22 +57,22 @@
                 "command": "rm",
                 "args": [
                     "-Path",
-                    "./UAE-Control,",
-                    "./UAE-Control.o,"
+                    "./src/UAE-Control,",
+                    "./src/UAE-Control.o,"
                 ]
             },
             "osx": {
                 "command": "rm",
                 "args": [
-                    "./UAE-Control,",
-                    "./UAE-Control.o,"
+                    "./src/UAE-Control,",
+                    "./src/UAE-Control.o,"
                 ]
             },
             "linux": {
                 "command": "rm",
                 "args": [
-                    "./UAE-Control,",
-                    "./UAE-Control.o,"
+                    "./src/UAE-Control,",
+                    "./src/UAE-Control.o,"
                 ]
             }
         },
@@ -85,7 +85,8 @@
                     "a",
                     "UAE-Control.lha",
                     "UAE-Control",
-                    "UAE-Control.info"
+                    "UAE-Control.info",
+                    "README.md"
                 ]
             },
             "osx": {
@@ -94,7 +95,8 @@
                     "a",
                     "UAE-Control.lha",
                     "UAE-Control",
-                    "UAE-Control.info"
+                    "UAE-Control.info",
+                    "README.md"
                 ]
             },
             "linux": {
@@ -103,7 +105,8 @@
                     "a",
                     "UAE-Control.lha",
                     "UAE-Control",
-                    "UAE-Control.info"
+                    "UAE-Control.info",
+                    "README.md"
                 ]
             }
         }
