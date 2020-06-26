@@ -1,0 +1,16 @@
+.c.o:
+   Echo "Project UAE-Control: compiling $>..."
+	sc MATH=FFP NOSTKCHK NOVERSION DEFINE=__USE_SYSBASE $*
+
+OBJECTS = UAE-Control.o
+
+UAEControl: $(OBJECTS)
+   Echo "Project UAE-Control: linking..."
+	slink <WITH < (T:UAEControl_smk.temp)
+	STRIPDEBUG QUIET MAXHUNK 100000
+	FROM LIB:c.o $(OBJECTS)
+	TO UAE-Control
+	LIBRARY LIB:scmffp.lib LIB:sc.lib LIB:amiga.lib
+<
+
+UAE-Control.o:			UAE-Control.c
