@@ -57,21 +57,21 @@
                 "command": "rm",
                 "args": [
                     "-Path",
-                    "./src/UAE-Control,",
+                    "./UAE-Control,",
                     "./src/UAE-Control.o,"
                 ]
             },
             "osx": {
                 "command": "rm",
                 "args": [
-                    "./src/UAE-Control,",
+                    "./UAE-Control,",
                     "./src/UAE-Control.o,"
                 ]
             },
             "linux": {
                 "command": "rm",
                 "args": [
-                    "./src/UAE-Control,",
+                    "./UAE-Control,",
                     "./src/UAE-Control.o,"
                 ]
             }
